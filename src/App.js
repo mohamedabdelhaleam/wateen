@@ -1,10 +1,10 @@
-import BloodScreen from "./BloodScreen/BloodScreen";
+import Question from "./Components/Question/Question";
 
 function App() {
   
   return (
     <div className="App">
-      <BloodScreen />
+      <Question />
     </div>
   );
 }

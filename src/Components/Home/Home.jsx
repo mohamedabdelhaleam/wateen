@@ -1,8 +1,8 @@
 import React from 'react';
 import './Home.css';
-import logo from '../assets/images/3.png';
-import homeLogo from '../assets/images/2.png';
-import homepic from '../assets/images/1.png';
+import logo from '../../assets/images/3.png';
+import homeLogo from '../../assets/images/2.png';
+import homepic from '../../assets/images/1.png';
 
 
 
@@ -11,7 +11,7 @@ const Home = () => {
   const txts = [
     "عزيزي المستخدم كن علي ثقة أن هدفنا مــن هــذا الموقــع هــو خدمــي بحــت",
     "عزيزي المستخدم كن علي ثقة أن هدفنا مــن هــذا الموقــع هــو خدمــي بحــت",
-    "عزيزي المستخدم كن علي ثقة أن هدفنا مــن هــذا الموقــع هــو خدمــي بحــت"
+    "محمد صلاح"
   ]
   return (
     <div className='home'>
@@ -21,7 +21,7 @@ const Home = () => {
             <li><a href='#login'>تسجيل الدخول</a></li>
             <li><a href='#login'>العناية المركزة</a></li>
             <li><a href='#login'>التبرع بالدم</a></li>
-            <li><a href='#login'>الصفحة الرئيسية</a></li>
+            <li><a href='#lo../gin'>الصفحة الرئيسية</a></li>
           </ul>
           <div className="logo">
             <img src ={logo} alt="logo"/>
@@ -44,7 +44,7 @@ const Home = () => {
             </div>
           </div>
           <div className="bottom">
-            <p>{txts[0]}</p>
+            <p>{txts[1]}</p>
           </div>
         </div>
       </div>

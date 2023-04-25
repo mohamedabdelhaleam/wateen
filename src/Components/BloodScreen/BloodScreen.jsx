@@ -1,12 +1,12 @@
 import React from 'react';
 import './BloodScreen.css';
-import logo from '../assets/images/3.png'
-import MainPic from '../assets/images/screen2/1.png'
-import InfoPic from '../assets/images/screen2/6.png'
-import ListPic from '../assets/images/screen2/4.png'
-import NeedPic from '../assets/images/screen2/5.png'
-import SearchPic from '../assets/images/screen2/3.png'
-import RegPic from '../assets/images/screen2/2.png'
+import logo from '../../assets/images/3.png'
+import MainPic from '../../assets/images/screen2/1.png'
+import InfoPic from '../../assets/images/screen2/6.png'
+import ListPic from '../../assets/images/screen2/4.png'
+import NeedPic from '../../assets/images/screen2/5.png'
+import SearchPic from '../../assets/images/screen2/3.png'
+import RegPic from '../../assets/images/screen2/2.png'
 
 
 

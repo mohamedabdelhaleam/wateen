@@ -49,7 +49,7 @@ nav .container
 
 }
 .main{
-    background-image: url(../assets/images/screen2/background2.png);
+    background-image: url(../../assets/images/screen2/background2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
