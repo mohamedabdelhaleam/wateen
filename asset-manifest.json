@@ -1,20 +1,16 @@
 {
   "files": {
-    "main.css": "/wateen/static/css/main.23646cb4.css",
-    "main.js": "/wateen/static/js/main.c101227b.js",
-    "static/media/1.png": "/wateen/static/media/1.f7f752b25c910dd40532.png",
-    "static/media/4.png": "/wateen/static/media/4.1a45af149d7e8e749d40.png",
-    "static/media/3.png": "/wateen/static/media/3.355d8e03e20ada99ca18.png",
-    "static/media/background2.png": "/wateen/static/media/background2.61aa887ae877f995b0c2.png",
-    "static/media/6.png": "/wateen/static/media/6.e54be37853af1b306f55.png",
-    "static/media/5.png": "/wateen/static/media/5.ba07d24b7438795b189c.png",
-    "static/media/2.png": "/wateen/static/media/2.8bd938258cf1fab98d5c.png",
+    "main.css": "/wateen/static/css/main.a8702713.css",
+    "main.js": "/wateen/static/js/main.974c4a72.js",
+    "static/media/1.png": "/wateen/static/media/1.cdec266de2a408c5a0cb.png",
+    "static/media/background.png": "/wateen/static/media/background.1bb1276edbe96d3b1d7a.png",
+    "static/media/3.png": "/wateen/static/media/3.830f47eed359f13300b8.png",
     "index.html": "/wateen/index.html",
-    "main.23646cb4.css.map": "/wateen/static/css/main.23646cb4.css.map",
-    "main.c101227b.js.map": "/wateen/static/js/main.c101227b.js.map"
+    "main.a8702713.css.map": "/wateen/static/css/main.a8702713.css.map",
+    "main.974c4a72.js.map": "/wateen/static/js/main.974c4a72.js.map"
   },
   "entrypoints": [
-    "static/css/main.23646cb4.css",
-    "static/js/main.c101227b.js"
+    "static/css/main.a8702713.css",
+    "static/js/main.974c4a72.js"
   ]
 }
