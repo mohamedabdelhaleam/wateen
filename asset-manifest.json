@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/wateen/static/css/main.0e680b34.css",
-    "main.js": "/wateen/static/js/main.cd96b795.js",
+    "main.js": "/wateen/static/js/main.5c392378.js",
     "static/media/background.png": "/wateen/static/media/background.1bb1276edbe96d3b1d7a.png",
     "static/media/3.png": "/wateen/static/media/3.830f47eed359f13300b8.png",
     "static/media/2.png": "/wateen/static/media/2.d1995132d79069448ed3.png",
     "index.html": "/wateen/index.html",
     "main.0e680b34.css.map": "/wateen/static/css/main.0e680b34.css.map",
-    "main.cd96b795.js.map": "/wateen/static/js/main.cd96b795.js.map"
+    "main.5c392378.js.map": "/wateen/static/js/main.5c392378.js.map"
   },
   "entrypoints": [
     "static/css/main.0e680b34.css",
-    "static/js/main.cd96b795.js"
+    "static/js/main.5c392378.js"
   ]
 }
