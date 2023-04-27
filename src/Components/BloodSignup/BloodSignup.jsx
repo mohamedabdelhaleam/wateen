@@ -32,7 +32,7 @@ return (
                     <div className="right">
                         <div className="question-window">
                             <form action="" method="post">
-                                <div className="blood-check"></div>
+                                <div className="blood-check">حدد فصيلة الدم : لم يتم التحديد بعد</div>
                                 <label htmlFor="">حدد نوع فصيلة الدم</label>
                                 <br />
                                 <select name="blood-type" id="">
@@ -56,11 +56,11 @@ return (
                                 <br />
                                 <label htmlFor="">العنوان</label>
                                 <br />
-                                <select name="blood-type" id="">
+                                <select name="governmate" id="">
                                         <option value="A+">المحافظة</option>
                                         <option value="A-">الأسكندرية</option>
                                 </select>
-                                <select name="blood-type" id="">
+                                <select name="area" id="">
                                         <option value="A+">المركز - المنطقة</option>
                                         <option value="A-">العصافرة</option>
                                         <option value="B+">سيدي بشر</option>
@@ -70,7 +70,7 @@ return (
                                 </select>
                                 <br />
                                 <label htmlFor="">اتاحة الأتصال بك</label><br />
-                                <select name="blood-type" id="">
+                                <select name="end-time" id="">
                                         <option value="">النهاية</option>
                                         <option value="">1</option>
                                         <option value="">2</option>
@@ -97,7 +97,7 @@ return (
                                         <option value="">23</option>
                                         <option value="">24</option>
                                 </select>
-                                <select name="blood-type" id="">
+                                <select name="start-time" id="">
                                         <option value="">البداية</option>
                                         <option value="">1</option>
                                         <option value="">2</option>
