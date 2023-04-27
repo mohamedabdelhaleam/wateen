@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Question.css';
 import logo from '../../assets/images/3.png';
-import homepic from '../../assets/images/1.png';
+import homepic from '../../assets/images/Blood/2.png';
 
 
 const Question = () => {
@@ -48,8 +48,6 @@ const Question = () => {
                         <button className="signup-btn signup-active">تسجيل جديد</button>
                     </div>
               <img src={homepic} alt="" srcset="" />
-              <h2>انقـذ_حيــاة#</h2>
-
             </div>
             <div className="right">
               <div className="question-window">

@@ -1,10 +1,10 @@
-import Question from "./Components/Question/Question";
+import BloodSignup from "./Components/BloodSignup/BloodSignup";
 
 function App() {
   
   return (
     <div className="App">
-      <Question />
+      <BloodSignup />
     </div>
   );
 }
