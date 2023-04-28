@@ -1,61 +1,11 @@
-nav 
-{
-    background-color: #0082F0;
-}
-nav .container
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    color: white;
-}
-
-.home-nav
-{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    border-radius: 50px;
-    padding: 6px;
-    overflow: hidden;
-}
-
-.home-nav a
-{
-    text-decoration: none;
-    color: #0082F0;
-    padding: 0px 30px;
-    border-radius: 50px;
-    font-size: 20px;
-    font-weight: bold;
-}
-.home-nav a:hover
-{
-    color: white;
-    background-color: #0082F0;
-}
-.home-nav .active
-{
-    color: white;
-    background-color: #0082F0;
-}
-
-.logo img
-{
-    height: 50px ;
-
-}
-.main-home{
+.main-questions{
     height: 81vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../../assets/images/background.png);
 }
-.main-home .top
+.main-questions .top
 {
     margin-top: 100px;
     display: flex;
@@ -72,11 +22,11 @@ nav .container
     gap: 5px;
 }
 
-.main-home .top .left img
+.main-questions .top .left img
 {
     height: 500px;
 }
-.main-home .top .right .question-window
+.main-questions .top .right .question-window
 {
     height: 700px;
     background-image: url(../../assets/images/Blood/1.png);
@@ -85,8 +35,13 @@ nav .container
     background-size: cover;
     width: 450px;
     border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     overflow: hidden;
+    padding-bottom: 70px;
 }
 .test-title
 {

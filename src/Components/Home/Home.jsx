@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-import logo from '../../assets/images/3.png';
 import homeLogo from '../../assets/images/2.png';
 import homepic from '../../assets/images/1.png';
 
@@ -10,29 +9,16 @@ const Home = () => {
 
   const txts = [
     "عزيزي المستخدم كن علي ثقة أن هدفنا مــن هــذا الموقــع هــو خدمــي بحــت",
-    "عزيزي المستخدم كن علي ثقة أن هدفنا مــن هــذا الموقــع هــو خدمــي بحــت",
-    "محمد صلاح"
+    "نتمني أن نتعاون سوياً علي تحقيق هدف التطبيق بإسعاف أكبر قدر من المحتاجين",
+    "نحن نرحب في أي وقت بأي شكاوي أو استفسارات أو افتراحات لتطوير التطبيق"
   ]
   return (
     <div className='home'>
-      <nav>
-        <div className="container">
-          <ul className='home-nav'>
-            <li><a href='#login'>تسجيل الدخول</a></li>
-            <li><a href='#login'>العناية المركزة</a></li>
-            <li><a href='#login'>التبرع بالدم</a></li>
-            <li><a href='#lo../gin'>الصفحة الرئيسية</a></li>
-          </ul>
-          <div className="logo">
-            <img src ={logo} alt="logo"/>
-          </div>
-        </div>
-      </nav>
       <div className="main-home">
         <div className="container">
           <div className="top">
             <div className="left">
-              <img src={homeLogo} alt="" srcset="" />
+              <img src={homeLogo} alt="" srcset="" className='home-main-img'/>
               <h2>انقـذ_حيــاة#</h2>
               <div className="btns">
                 <button className='blood'>التبرع بالدم</button>

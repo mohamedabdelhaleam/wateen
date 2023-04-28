@@ -1,6 +1,5 @@
 import React from 'react';
 import './BloodScreen.css';
-import logo from '../../assets/images/3.png'
 import MainPic from '../../assets/images/screen2/1.png'
 import InfoPic from '../../assets/images/screen2/6.png'
 import ListPic from '../../assets/images/screen2/4.png'
@@ -13,19 +12,6 @@ import RegPic from '../../assets/images/screen2/2.png'
 const BloodScreen = () => {
   return (
     <div>
-         <nav>
-        <div className="container">
-          <ul className='home-nav'>
-            <li><a href='#login'>تسجيل الدخول</a></li>
-            <li><a href='#login'>العناية المركزة</a></li>
-            <li><a href='#login' className='active'>التبرع بالدم</a></li>
-            <li><a href='#login'>الصفحة الرئيسية</a></li>
-          </ul>
-          <div className="logo">
-            <img src ={logo} alt="logo"/>
-          </div>
-        </div>
-      </nav>
       <div className="main">
         <div className="container">
             <div className="top">

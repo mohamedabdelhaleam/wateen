@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Question.css';
-import logo from '../../assets/images/3.png';
-import homepic from '../../assets/images/Blood/2.png';
+import questionspic from '../../assets/images/Blood/2.png';
 
 
 const Question = () => {
@@ -24,22 +23,10 @@ const Question = () => {
         "لقد اجتزت الإختبار وأصبحت بشكل مبدئي جاهز للتبرع لكن هناك أسئلة وفحوصات أخري سيقوم بها الطبيب عند التبرع" ,
         "إجابتك الأخبرة تعني أن لديك مانع للتبرع بالدم"
     ];
+    window.sessionStorage.setItem('blood-accept',accept)
     return (
         <div>
-            <nav>
-                <div className="container">
-                <ul className='home-nav'>
-                    <li><a href='#login'>تسجيل الدخول</a></li>
-                    <li><a href='#login'>العناية المركزة</a></li>
-                    <li><a href='#login' className='active'>التبرع بالدم</a></li>
-                    <li><a href='#lo../gin'>الصفحة الرئيسية</a></li>
-                </ul>
-                <div className="logo">
-                    <img src ={logo} alt="logo"/>
-                </div>
-                </div>
-            </nav>
-            <div className="main-home">
+            <div className="main-questions">
         <div className="container">
           <div className="top">
             <div className="left">
@@ -47,7 +34,7 @@ const Question = () => {
                         <button className="login-btn ">حساب موجود</button>
                         <button className="signup-btn signup-active">تسجيل جديد</button>
                     </div>
-              <img src={homepic} alt="" srcset="" />
+              <img src={questionspic} alt="" srcset="" />
             </div>
             <div className="right">
               <div className="question-window">
