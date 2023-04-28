@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/wateen/static/css/main.0e680b34.css",
-    "main.js": "/wateen/static/js/main.5c392378.js",
+    "main.css": "/wateen/static/css/main.5c07d873.css",
+    "main.js": "/wateen/static/js/main.81cb48ff.js",
+    "static/media/1.png": "/wateen/static/media/1.d09abf10ce5ee466aa87.png",
+    "static/media/2.png": "/wateen/static/media/2.d1995132d79069448ed3.png",
     "static/media/background.png": "/wateen/static/media/background.1bb1276edbe96d3b1d7a.png",
     "static/media/3.png": "/wateen/static/media/3.830f47eed359f13300b8.png",
-    "static/media/2.png": "/wateen/static/media/2.d1995132d79069448ed3.png",
     "index.html": "/wateen/index.html",
-    "main.0e680b34.css.map": "/wateen/static/css/main.0e680b34.css.map",
-    "main.5c392378.js.map": "/wateen/static/js/main.5c392378.js.map"
+    "main.5c07d873.css.map": "/wateen/static/css/main.5c07d873.css.map",
+    "main.81cb48ff.js.map": "/wateen/static/js/main.81cb48ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e680b34.css",
-    "static/js/main.5c392378.js"
+    "static/css/main.5c07d873.css",
+    "static/js/main.81cb48ff.js"
   ]
 }
