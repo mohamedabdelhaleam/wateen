@@ -1,11 +1,37 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import homepic from '../../assets/images/Blood/2.png';
 import './BloodSignup.css'
 import { NavLink } from 'react-router-dom';
 
 const BloodSignup = () => {
-    const stat = window.sessionStorage.getItem("blood-accept")
-    console.log(stat)
+    const [acceptStat ,setAcceptStat] = useState("")
+    const [rejectStat ,setRejectStat] = useState("")
+    const [blood,setBlood] =useState("")
+    const [name,setName] =useState("")
+    const [phone,setPhone] =useState("")
+    const [governmate,setGovernmate] =useState("")
+    const [city,setCity] =useState("")
+    const [start,setStart] =useState("")
+    const [end,setEnd] =useState("")
+    useEffect(()=>{
+        
+        setAcceptStat(window.sessionStorage.getItem("blood-accept"))
+        setRejectStat(window.sessionStorage.getItem("blood-reject"))
+    },[])
+
+
+    let changeClass = ()=>{
+        let classchange = "blood-check"
+        if(acceptStat === "true"){
+            classchange = "blood-check-accept"
+        }
+        if (rejectStat === "true") {
+            classchange = "blood-check-reject"
+        }
+        return classchange
+    }
+
+
 return (
     <>
         <div className="main-home">
@@ -13,8 +39,8 @@ return (
                 <div className="top">
                     <div className="left">
                         <div className="main-btn">
-                            <button className="login-btn">حساب موجود</button>
-                            <button className="signup-btn signup-active">تسجيل جديد</button>
+                        <NavLink to="/blood-login"><button className="login-btn">حساب موجود</button></NavLink>
+                        <NavLink to="/blood-signup"><button className="signup-btn signup-active">تسجيل جديد</button></NavLink>     
                         </div>
                         <img src={homepic} alt="" srcset="" className='signup-img'/>
                     </div>
@@ -25,7 +51,7 @@ return (
                         </div>
                             <form action="" method="post">
                                 <NavLink to='/questions'>
-                                    <div className={stat ? "blood-check-accept":"blood-check-reject"}><span>لم يتم التحديد بعد : </span> اختبار صلاحية الدم</div>
+                                    <div className={changeClass()}> اختبار صلاحية الدم</div>
                                 </NavLink>
                                 <label htmlFor="">حدد نوع فصيلة الدم</label>
                                 <br />
@@ -42,11 +68,11 @@ return (
                                 <br />
                                 <label htmlFor="">اسم المتبرع</label>
                                 <br />
-                                <input type="text" />
+                                <input type="text" onChange={(e)=>{setName(e.target.value)}}/>
                                 <br />
                                 <label htmlFor="">رقم الهاتف</label>
                                 <br />
-                                <input type="text" dir='rlt'/>
+                                <input type="text" dir='rlt' onChange={(e)=>{setPhone(e.target.value)}} />
                                 <br />
                                 <label htmlFor="">العنوان</label>
                                 <br />
@@ -124,7 +150,7 @@ return (
                                 <br />
                                 <br />
                                 <div className="reg-btn">
-                                    <button className='blood-signup'>تسجيل الحساب</button>
+                                    <input type="submit" value="تسجيل الحساب" className='blood-signup'/>
                                 </div>
                             </form>
                         </div>

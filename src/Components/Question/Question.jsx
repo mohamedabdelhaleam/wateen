@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Question.css';
 import questionspic from '../../assets/images/Blood/2.png';
+import { NavLink } from 'react-router-dom';
 
 
 const Question = () => {
@@ -24,6 +25,7 @@ const Question = () => {
         "إجابتك الأخبرة تعني أن لديك مانع للتبرع بالدم"
     ];
     window.sessionStorage.setItem('blood-accept',accept)
+    window.sessionStorage.setItem('blood-reject',reject)
     return (
         <div>
             <div className="main-questions">
@@ -65,8 +67,12 @@ const Question = () => {
                     </div>
                 </div>
                 <div className="last-btns">
-                    <button className={accept ? "continue-btn-close ":"continue-btn-active "} disabled={accept ? "disabled": reject ? "disabled":""}>الخروج</button>
-                    <button className={accept ? "continue-btn-active ":"continue-btn-close "}>أكمال التسجيل</button>
+                    <NavLink to="/home">
+                        <button className={accept ? "continue-btn-close ":"continue-btn-active "}>الخروج</button>
+                    </NavLink>
+                    <NavLink to="/blood-signup">
+                        <button className={accept ? "continue-btn-active ":"continue-btn-close "}>أكمال التسجيل</button>    
+                    </NavLink>                
                 </div>
               </div>
             </div>

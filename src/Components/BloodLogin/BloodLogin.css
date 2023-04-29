@@ -60,12 +60,8 @@
     font-weight: 700;
     cursor: pointer;
 }
-.signup-active
-{
-    background-color: #0082F0;
-    color: white;
-}
-.login-active
+
+.main-btn-active
 {
     background-color: #0082F0;
     color: white;
@@ -74,12 +70,31 @@
 label
 {
     color: #0082F0;
+    text-align: center;
     font-weight: 600;
+}
+.logo-cover
+{
+    width: 100%;
+    margin-top: 120px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-login 
+{
+    width: 300px;
+    background-image: url('../../assets/images/2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
 }
 form
 {
     padding: 50px 20px;
-    text-align: right;
+    text-align: center;
 }
 label
 {
@@ -101,106 +116,24 @@ input:focus
     color: #0082F0;
     font-weight: 600;
 }
-.blood-check
-{
-    width: 100%;
-    margin-top: 40px;
-    border: 0px solid transparent;
-    border-radius: 50px;
-    height: 30px;
-    background-color: white;
-    color: #0080f08a;
-    padding: 0px 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.blood-check-accept
-{
-    color: white;
-    width: 100%;
-    border: 0px solid transparent;
-    border-radius: 50px;
-    height: 30px;
-    background-color: green;
-    padding: 0px 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.blood-check-reject
-{
-    color: white;
-    width: 100%;
-    border: 0px solid transparent;
-    border-radius: 50px;
-    height: 30px;
-    background-color: red;
-    padding: 0px 10px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-select
-{
-    width: 100%;
-    margin-top: 10px;
-    height: 30px;
-    border-radius: 50px;
-    border: 0px solid transparent;
-    padding: 0px 20px;
-    text-align: center;
-    outline: none;
-    appearance: none;
-}
-.reg-btn
+.login-btn-continue
 {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.blood-signup
+.blood-login
 {
     border-radius: 50px;
     font-size: 20px;
+    padding: 0px 30px;
     width: 250px;
     background-color: #0082F0;
     border: 0px;
-    height: 40px;
     color: white;
     font-weight: 600;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.time-range,
-.area-sele
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.start-time,
-.end-time,
-.governmate,
-.area
-{
-    width: 48%;
 }
 
-option{
-    background-color: white;
-    color: #0082F0;
-}
-option:checked,
-option:hover
-{
-    background-color: #0082F0;
-    color: white;
-}
-a
-{
-    text-decoration: none;
-}
+
